@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8e9de;
+}
+
+.container {
+  max-width: 690px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f34f50;
+  color: #fff;
+  font-weight: 300;
+  border: 10px solid white;
+  border-radius: 20px 20px 0 0;
+}
+.navbar i {
+  margin-right: 8px;
+  font-size: 25px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.img--holder img {
+  width: 140px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-top: 0;
+}
+.card-content .info-holder {
+  width: 75%;
+}
+.card-content .info-holder .location-info {
+  display: flex;
+  align-items: center;
+}
+.card-content .info-holder .location-info .location {
+  margin-right: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+}
+.card-content .info-holder .location-info .location i {
+  font-size: 14px;
+  color: #f34f50;
+  margin-right: 2px;
+}
+.card-content .info-holder .location-info .mapUrl {
+  font-size: 13px;
+  color: gray;
+}
+.card-content .info-holder .title {
+  font-size: 30px;
+  margin-bottom: 13px;
+}
+.card-content .info-holder .dates {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.card-content .info-holder .description {
+  font-size: 14px;
+}
+
+.theme-break {
+  margin: 20px 0;
+  opacity: 30%;
+}/*# sourceMappingURL=style.css.map */
